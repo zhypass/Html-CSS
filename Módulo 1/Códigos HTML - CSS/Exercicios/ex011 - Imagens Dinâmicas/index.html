@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou mude o zoom da página</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Foto-M.png" type="image/png">
+        <img src="Imagens/Foto-G.png" alt="Imagem Flexível">  
+    </pictu>re
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em Html 5</p>
+    <!-- <audio src="midia/slacklife.mp3" controls autoplay></audio> -->
+    <!--MP3, WAV, OGG-->
+    <audio preload="metadata" controls loop>
+    <source src="midia/slacklife.mp3" type="audio/mpeg">
+    </audio>
+</body> 
+</html>

@@ -1,0 +1,57 @@
+                                                     -CAPITULO 2, AULA1- Como a internet funciona?
+
+O computador funciona com sinais, esses sinais são "0" e "1" - "Sem sinal" e "Com sinal" (chamado de "bit" (Binary Digit))
+Quantidade minima de bits para representar algum dado: 8 bits
+byte = sequência de 8 bits
+
+UTF-8 = ?
+
+1024 bytes = 1 KB
+1024 KB = 1MB
+1024 MB = 1GB
+1024 GB = 1TB
+1024 TB = 1PB
+1024 PB = 1EB
+1024 EB = 1ZB
+1024 ZB = 1YB
+
+Modem = transforma sinais quadrados para sinais cenoidal (modulação) e também o inverso (demodulação)
+ 
+Servidor DNS (Domain Name System = é o servidor que faz a ligação entre o nome e o endereço IP de qualquer site
+
+
+                                                     -CAPITULO 2, AULA 2- Oque é dominio e hospedagem?
+
+Dominio = nome 
+Hospedagem = local onde vai ficar armazenado os arquivos (servidor)
+
+URL = Uniform Resource Locator
+
+                                                     -CAPITULO 3, AULA 1 - A DIFERENÇA ENTRE HTML, CSS E JAVASCRIPT
+
+Html = HyperText Markup Language
+Css = Cascading Style Sheets 
+
+*HTML É FOCADO EM CONTEÚDO (TEXTOS, IMAGENS, VIDEO, TABELA, ETC)
+
+*CSS É FOCADO EM DESIGN (CORES, SOMBRAS, TAMANHO, POSICIONAMENTO, ETC)
+
+
+IMAGENS NO HTML
+*Para colocar imagens no código, basta digitar o seguinte: <img src= "" alt="">
+
+
+FAVICON NO HTML
+*Para colocar um favicon, basta digitar: <link rel="" href="" type="image/x-icon">
+
+
+
+
+
+
+
+
+
+
+
+

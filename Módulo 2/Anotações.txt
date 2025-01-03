@@ -1,0 +1,23 @@
+-----Harmonia De Cores-----
+
+Cores Primárias: São as cores principais
+
+Cores Secundárias: São as misturas entre as cores primárias
+
+Cores Terciárias: São as misturas entre as cores secundárias com as primárias
+
+Cores Complementares: São as cores "opostas" no círculo cromático
+
+Cores Análogas: São as cores "vizinhas" de uma cor no círculo cromático
+
+Cores Análogas Relacionadas: São duas cores "vizinhas" e mais a segunda cor a partir dessas
+
+Cores Intercaladas: São as cores divididas em um mesmo tamanho entre uma e outra
+
+Cores Triádicas: São as cores que formam um triângulo no círculo cromático
+
+Cores em Quadrado: São as cores que formam um quadrado no círculo cromático
+
+Cores Tetrádicas: São as cores que formam um retângulo no círculo cromático
+	
+Monocromia: Trabalha com vários tons de uma mesma cor, apenas modificando a iluminação e saturação
