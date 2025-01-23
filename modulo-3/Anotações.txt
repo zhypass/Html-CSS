@@ -65,3 +65,19 @@ Observações:
 
    - W3C: os fechamentos das tags <tr> e <td> não são obrigatórios, porém recomendados;
    - Se a hierarquia não for respeitada, os elementos vão aparecer antes ou depois da tabela.
+
+
+Escopo de títulos em tabelas
+
+	   - Sem efeitos visuais, apenas semânticos;
+
+Indicando que o th é relativo aos dados que estão na mesma coluna do mesmo:
+
+	<th scope="col">    </th>	
+
+Indicando que o th é relativo aos dados que estão na mesma linha do mesmo:
+
+	<th scope="row">    </th>
+
+ Ex:     <th scope="col">Estado</th>
+	      <th scope="row">Total de Habitantes</th>
