@@ -1,4 +1,4 @@
-Hierarquia de tabelas simples:
+				HIERARQUIA DE TABELAS SIMPLES:
 	
 	table				(tabela)
 	      table row			(tr - linha)
@@ -67,7 +67,7 @@ Observações:
    - Se a hierarquia não for respeitada, os elementos vão aparecer antes ou depois da tabela.
 
 
-Escopo de títulos em tabelas
+					    ESCOPO DE TITULOS EM TABELAS
 
 	   - Sem efeitos visuais, apenas semânticos;
 
@@ -81,3 +81,38 @@ Indicando que o th é relativo aos dados que estão na mesma linha do mesmo:
 
  Ex:     <th scope="col">Estado</th>
 	      <th scope="row">Total de Habitantes</th>
+
+
+						EFEITO ZEBRADO EM TABELAS
+
+Usar a pseudo-classe	:nth-child( )
+
+ - Para linhas pares usar (even) ou (2n);
+ - Para linhas ímpares usar (odd) ou (2n-1).
+
+ Ex:	tbody > tr:nth-child(odd) {
+            	background-color: white;	(opcional quando o fundo já for branco)
+	}
+
+	tbody > tr:nth-child(even) {
+            	background-color: lightgray;
+	}
+
+
+						CABEÇALHO FIXO EM TABELAS GRANDES
+					
+1º Passso - Usar posicionamento relativo na tabela:		position: relative;
+
+ Ex:	table {
+           	width: 500px;
+            	border-collapse: collapse;
+            	position: relative;
+	}
+
+
+2º Passso - Fixar o cabeçalho:		position: sticky;
+
+ Ex:	thead {
+            	position: sticky;
+            	top: -1px;
+	}
