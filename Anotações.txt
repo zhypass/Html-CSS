@@ -204,3 +204,14 @@ Expansão em forma de coluna:	<td colspan=" ">        </td>
 Expansão em forma de linha:	<td rowspan=" ">        </td>
 
   Ex:	 <td rowspan="3">D</td>	  -> expandindo D para 3 linhas.
+
+
+						ESCOPOS DE GRUPO
+
+Escopo em grupo de colunas:	<th colspan="  " scope="colgroup">      </th>
+
+   Ex:	<th colspan="3" scope="colgroup">Filmes</th>
+
+Escopo em grupo de linhas:	<th rowspan="  " scope="rowgroup">      </th>
+
+   Ex:	<th rowspan="3" scope="rowgroup">Mulheres</th>
