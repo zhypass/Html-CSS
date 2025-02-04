@@ -215,3 +215,56 @@ Escopo em grupo de colunas:	<th colspan="  " scope="colgroup">      </th>
 Escopo em grupo de linhas:	<th rowspan="  " scope="rowgroup">      </th>
 
    Ex:	<th rowspan="3" scope="rowgroup">Mulheres</th>
+
+
+
+   						AGRUPANDO COLUNAS:
+
+Na parte de HTML:
+
+   Ex:	<table>
+        		<colgroup>
+            		        <col class="cnome">
+            		        <col class="c s e x o">
+            		        <col class="cidade">
+            		        <col class="cprof">
+        		</ colgroup>
+		.
+		.
+
+Na parte de CSS:
+
+   Ex:		col cnome {
+            		        background-color: yellow;
+       	 	        }
+		        col  c s e x o {
+			        background-color: green;
+       	 	        }
+		        .
+		        .
+
+Para grupo de colunas:
+
+   Ex:	HTML:	<colgroup>
+            		                <col class="cnome">
+            		                <col class="cgrupo" span="2">	(2 colunas serão formatadas)
+            		                <col class="cprof">
+        		        </ colgroup>
+
+	        CSS:	col cgrupo {
+            		                background-color: red;
+		                }
+
+
+
+						TORNANDO TABELAS MAIS RESPONSIVAS:
+
+- Selecionar toda a tabela <table>;
+
+- Envelopar dentro de uma <div id="container">;
+
+- Em <style>, formatar a 'div#container' com 'overflow-x: auto;'
+
+   Ex:	div#container {
+	               overflow-x: auto;	   (conteúdo base fica travado, enquanto rola a tabela lateralmente)
+	        }
