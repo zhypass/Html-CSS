@@ -268,3 +268,17 @@ Para grupo de colunas:
    Ex:	div#container {
 	               overflow-x: auto;	   (conteúdo base fica travado, enquanto rola a tabela lateralmente)
 	        }
+
+
+						        IFRAMES
+
+*Interessante separar as páginas em uma pasta diferente
+
+Para navegar nas páginas dentro de um iframe: 
+
+1. Criar uma lista com links no arquivo base
+2. Dar um "name" para o iframe
+3. Colocar um target nos links com o mesmo "name" do iframe
+
+Para iniciar um iframe com algum conteúdo sem precisar clicar em opções, podemos colocar um "srcdoc=" e digitar um código html básico. 
+Outra maneira, é criar uma página separada para o conteúdo e apenas linkar a página com o "src" do iframe
