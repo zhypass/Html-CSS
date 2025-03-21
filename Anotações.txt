@@ -282,3 +282,23 @@ Para navegar nas páginas dentro de um iframe:
 
 Para iniciar um iframe com algum conteúdo sem precisar clicar em opções, podemos colocar um "srcdoc=" e digitar um código html básico. 
 Outra maneira, é criar uma página separada para o conteúdo e apenas linkar a página com o "src" do iframe
+
+						 	IFRAME - SANDBOX
+Imagine que voce tem uma caixa de brinquedos (iframe) dentro do seu quarto (a página web). Os brinquedos na caixa podem ser perigosos, então você coloca uma tampa (sandbox) para protegê-los.
+
+A tampa tem diferentes aberturas que voce pode abrir ou fechar, para decidir o que os brinquedos podem fazer:
+
+- allow-same-origin: Isso é como deixar os brinqudos na caixa acharem que estão no seu quarto. Eles podem brincar com outros brinquedos no quarto.
+- allow-forms: Permite que os brinquedos possam enviar cartas para outros brinquedos.
+- allow-scripts: Permite que os brinquedos possam fazer mágica e truques.
+Sem a tampa, os brinquedos podem fazer o que quiserem, mas com a tampa, você controla o que é permitido.
+
+							IFRAME - REFERRER POLICY
+Pense no cabeçalho HTTP Referer como um bilhete que diz de onde você veio. Quando você visita um amigo (uma nova página), você pode dar o bilhete para ele.
+
+A política de referência (referrerpolicy) é como decidir o que escrever no bilhete:
+
+- no-referrer: Você não dá nenhum bilhete.
+- no-referrer-when-downgrade: Você só dá o bilhete se for para um amigo seguro (HTTPS). Se for um amigo inseguro (HTTP), você não dá.
+- origin: Você só diz de qual cidade você veio, mas não o seu endereço exato.
+- unsafe-url: Você diz o seu endereço exato, mas isso pode não ser seguro.
